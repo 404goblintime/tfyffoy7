@@ -1,0 +1,28 @@
+.heading {
+    background-color: #921313;
+    color: #EAB5B5;
+    font-size: 60px;
+    margin: 0px;
+}
+
+body {
+    background-size: cover;
+    background-color: #f7d7d7;
+}
+
+#songname {
+    font-size: 40px;
+    margin-right: 500px;
+}
+
+#playbutton {
+    font-size: 40px;
+    margin-left: 500px;
+}
+
+canvas {
+    border: 5px solid palevioletred;
+    border-width: 25px;
+    border-radius: 500px;
+    margin-top: 40px;
+}

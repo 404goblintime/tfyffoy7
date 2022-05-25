@@ -1,0 +1,41 @@
+!DOCTYPE html>
+<html>
+<head>
+	<title>AI DJ WEB APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+ 
+</head>
+
+<body>
+  <center>
+    <h3 class="heading">AI MUSIC WEB APP
+      <br>
+      <span>
+        <h5 class="note">NOTE - Move your left-hand wrist in front of the webcam to play the Peter Pan song. Move your
+          right-hand wrist in front of the webcam to play the Harry Potter song.</h5>
+        <h5 class="note">Keep at least 2 feet away from the webcam so that your wrists are detected.</h5>
+      </span>
+
+    </h3>
+    <br><br>
+    <div class="songnamediv">
+      <h3 id="songname" class="btn btn-danger">Song Name</h3>
+      <h3 id="playbutton" onclick="play()" class="btn btn-danger">Play</h3>
+    </div>
+  </center>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
